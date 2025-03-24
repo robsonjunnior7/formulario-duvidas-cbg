@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Dúvidas - Colégio Batista Getsêmani</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        justify-content: flex-start;
+
+        background-image: url("background-escolar.jpg");
+        background-size: cover; 
+        background-repeat: repeat;
+        background-position: center;
+    }
+
+        .topo {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .logo-cbg {
+            width: 120px;
+            height: auto;
+        }
+
+        .slogan {
+            color: #002950;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1.2em;
+            margin-left: 20px;
+        }
+        .container {
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 16px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #002d62;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #002d62;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 20px;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background-color: #001b40;
+        }
+        .rodape {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <script src="script.js" defer></script>
+
+    <div class="topo">
+        <img src="logo CBG borda.png" alt="Logo Colégio Batista Getsêmani" class="logo-cbg">
+        <div class="slogan">Ensinando para transformar vidas</div>
+    </div>
+
+        <div class="container">
+            <h1>Tire suas dúvidas conosco!</h1>
+            <form id="duvidaForm" action="https://docs.google.com/forms/d/e/1FAIpQLSdMgciZnkBu0lL-KY9wxRwayhjbUOA2IiFzyLN9fJHok_0yQA/formResponse" method="POST" target="_blank">
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" id="nome" name="entry.1191464379" required>
+                
+                <label for="email">Digite seu e-mail:</label>
+                <input type="email" id="email" name="entry.1860853742" required>
+                
+                <label for="assunto">Sobre o que vamos falar?</label>
+                <input type="text" id="assunto" name="entry.253699052" required>
+                
+                <label for="mensagem">Digite sua dúvida:</label>
+                <textarea id="mensagem" name="entry.1861404842" rows="4" maxlength="1000" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+
+            <iframe name="hidden_iframe" style="display: none;"></iframe>
+
+            <div class="rodape">
+                <p>Para mais dúvidas e/ou informações, ligue (31) 2532-9899 ou (31) 99188-0882 (WhatsApp)</p>
+                    <a href="https://www.colegiobatistagetsemani.com.br" target="_blank" style="display: block; text-align: center; margin-top: 20px; color: #002950; font-weight: bold;">
+                        www.colegiobatistagetsemani.com.br </a>
+                <p>Desenvolvido por: Robson Fernandes - Estudante de Análise e Desenvolvimento de Sistemas, Faculdade Descomplica.</p>
+            </div>
+        </div>
+        <script src="script.js" defer></script>
+</body>
+</html>
