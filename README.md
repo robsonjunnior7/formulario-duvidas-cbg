@@ -16,5 +16,10 @@ O objetivo principal é facilitar a comunicação entre o **Colégio Batista Get
 ✅ Interface responsiva para dispositivos móveis    
 
 ## 🏆 Créditos
-Projeto desenvolvido por **Robson Fernandes Simões Junior** como parte do Projeto de Extensão do **Centro Universitário União das Américas – Descomplica**.
+Projeto desenvolvido por **Robson Fernandes Simões Junior** como parte do Projeto de Extensão do **Centro Universitário União das Américas – Descomplica**, 2025.
 
+<div>
+<a href="(https://www.instagram.com/robsonfsjr_/)" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href = "mailto:robson.junnior22@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/robsonjunnior7/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
+</div>
